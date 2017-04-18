@@ -1,0 +1,91 @@
+* Starting client
+* Connecting to master process on port 20586
+* Analyzing classpath: 
+  - /home/hunter/Documents/College/Spring2017/CS362/CS362-001-SP17/projects/lienh/assignment-1/target/classes
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/charsets.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/deploy.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/cldrdata.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/dnsns.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/jaccess.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/jfxrt.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/localedata.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/nashorn.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/sunec.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/sunjce_provider.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/sunpkcs11.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/ext/zipfs.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/javaws.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/jce.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/jfr.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/jfxswt.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/jsse.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/management-agent.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/plugin.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/resources.jar
+  - /home/hunter/IDE's/Dependencies/jdk1.8.0_121/jre/lib/rt.jar
+  - /home/hunter/Documents/College/Spring2017/CS362/CS362-001-SP17/projects/lienh/assignment-1/target/classes
+* Finished analyzing classpath
+* Generating tests for class main
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 35
+  - Branch 16
+  - Exception 0
+  - MutationFactory 400
+  - Output 0
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 16
+* Using seed 1492487347541
+* Starting evolution
+* Search finished after 96s and 191 generations, 48969 statements, best individual has fitness: 1.5
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 35
+* Number of covered goals: 35
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 16
+* Number of covered goals: 16
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 400
+* Number of covered goals: 398
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 94%
+* Total number of goals: 16
+* Number of covered goals: 15
+* Generated 3 tests with total length 8
+* Resulting test suite's coverage: 100% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Compiling and checking tests
+* Writing JUnit test case 'main_ESTest' to /home/hunter/Documents/College/Spring2017/CS362/CS362-001-SP17/projects/lienh/assignment-1/.evosuite/tmp_2017_04_17_20_49_05/tests
+* Done!
+
